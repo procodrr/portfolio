@@ -1,4 +1,6 @@
 var canvas = document.querySelector("#wrapper-canvas");
+var date=document.querySelector('.date')
+date.innerHTML='Anurag Singh © ' + new Date().getFullYear()
 
 var dimensions = {
   width: window.innerWidth,
